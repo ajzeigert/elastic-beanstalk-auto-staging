@@ -1,0 +1,13 @@
+name: "Elastic Beanstalk Auto Staging"
+description: "Automatically create an Elastic Beanstalk environment when a pull request is opened against main"
+inputs:
+  eb_application_name:
+    description: "Elastic Beanstalk application name"
+    required: true
+
+outputs:
+  environment_url:
+    description: "The Elastic Beanstalk environment URL"
+runs:
+  using: "node20"
+  main: "index.js"
