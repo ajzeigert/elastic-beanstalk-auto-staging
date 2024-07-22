@@ -4,8 +4,9 @@ import {
 	ElasticBeanstalkClient,
 	// ListPlatformBranchesCommand,
 	// DescribeApplicationsCommand,
+	DescribeConfigurationSettingsCommand,
 	DescribeEnvironmentsCommand,
-	ListAvailableSolutionStacksCommand,
+	// ListAvailableSolutionStacksCommand,
 } from "@aws-sdk/client-elastic-beanstalk";
 import core from "@actions/core";
 // import github from "@actions/github";
