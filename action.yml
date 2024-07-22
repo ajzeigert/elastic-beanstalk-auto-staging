@@ -10,4 +10,4 @@ outputs:
     description: "The Elastic Beanstalk environment URL"
 runs:
   using: "node20"
-  main: "dist/index.js"
+  main: "dist/rmindex.js"
